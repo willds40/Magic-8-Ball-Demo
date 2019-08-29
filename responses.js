@@ -9,3 +9,7 @@
     "hahaha",
     "Better luck next time"
 ]
+
+export default () => {
+    return responses[Math.floor(Math.random() * responses.length)]
+} 
