@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Text, View, Button, ImageBackground } from 'react-native';
-import getResponse from './responses';
+import {getResponse} from './responses';
 import style from './styles'
 
 const App = () => {

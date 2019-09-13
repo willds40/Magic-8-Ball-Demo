@@ -10,6 +10,7 @@
     "Better luck next time"
 ]
 
-export default () => {
+export const getResponse =  () => {
     return responses[Math.floor(Math.random() * responses.length)]
 } 
+
